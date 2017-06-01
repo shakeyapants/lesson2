@@ -2,7 +2,7 @@
 # По возрасту определить, чем он должен заниматься: учиться в детском саду, школе, ВУЗе или работать.
 # Вывести занятие на экран.
 
-age = int(float(input('Please enter your age: ')))
+age = float(input('Please enter your age: '))
 
 if age < 7:
     print('Go to kindergarten!')
