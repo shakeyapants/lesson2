@@ -2,12 +2,12 @@
 # Посчитать и вывести средний балл по всей школе.
 # Посчитать и вывести средний балл по каждому классу.
 
-lst = [{'school_class': '4a', 'scores': [3, 4, 4, 5, 2]}, {'school_class': '4b', 'scores': [3, 3, 3, 2, 3]}]
+school_scores = [{'school_class': '4a', 'scores': [3, 4, 4, 5, 2]}, {'school_class': '4b', 'scores': [3, 3, 3, 2, 3]}]
 
 school_total = 0
 num_scores = 0
 
-for dic in lst:
+for dic in school_scores:
     scores = dic.get('scores')
     num_scores += len(scores)
     total = 0

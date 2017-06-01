@@ -7,4 +7,5 @@ def ask_user():
         if answer == 'Fine':
             break
 
-ask_user()
+if __name__ == '__main__':
+    ask_user()

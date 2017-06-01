@@ -22,4 +22,5 @@ def ask_user(answers):
         answer = get_answer(user_text, answers)
         print(answer)
 
-ask_user(answers)
+if __name__ == '__main__':
+    ask_user(answers)
